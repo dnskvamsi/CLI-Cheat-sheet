@@ -1,10 +1,10 @@
 # <center>  Cheatsheet_for_basic_linux_commands </center>
 
-## <center> PWD </center>
+## <center> [PWD](https://www.geeksforgeeks.org/pwd-command-in-linux-with-examples/) </center>
 ### pwd
 > #### It dispay's the current working directory.
 ---
-## <center> cd </center>
+## <center> [cd](https://www.geeksforgeeks.org/cd-command-in-linux-with-examples/?ref=lbp) </center>
 ### cd
 > #### cd stands for change directory. It is used to navigate to specific folder.
 #### Syntax:-
@@ -19,7 +19,7 @@
 ### cd -
 > #### It is used to navigate to the previous working directory.
 
-## <center> mkdir </center>
+## <center> [mkdir](https://www.geeksforgeeks.org/mkdir-command-in-linux-with-examples/?ref=lbp) </center>
 ### mkdir
 > #### Make directory. It is used to create a new directories.
 
@@ -31,7 +31,7 @@
 ### mkdir -p dir1/dir2
 > #### -p flag is used to create parent directory if it doesn't exists.
 
-## <center> rmdir </center>
+## <center> [rmdir](https://www.geeksforgeeks.org/rmdir-command-in-linux-with-examples/?ref=lbp) </center>
 ### rmdir
 > #### remove directories. It is used to remove existing empty directories.
 
@@ -43,7 +43,7 @@
 ### rmdir -p dir1/dir2
 > #### -p flag is used to remoe parent directory too if it parent is empty.
 
-## <center> ls </center>
+## <center> [ls]() </center>
 ### ls
 > #### List the files and directores. It is used to print all the files and folders present.
 
@@ -65,7 +65,7 @@
 #### ls -alrht
 > #### we can combine all the options and this provides all the functionality of a ,l,r,t,h
 
-## <center> cp </center>
+## <center> [cp](https://www.javatpoint.com/linux-cphttps://www.javatpoint.com/linux-cp) </center>
 ### cp
 > #### cp stands for copy.Copy the files from one location to another. It doen't delete the original file. (it internally works as cat source>destination).
 
@@ -77,7 +77,7 @@
 ### cp -r dir1 dir2
 > #### -r tag is used to recursively copy the dir1 to dir2.
 
-## <center> mv </center>
+## <center> [mv](https://www.javatpoint.com/linux-mv) </center>
 ### mv
 > #### mv stands for move.moves the files from one location to another. It cuts from source location and paste in the destination location.
 
@@ -87,7 +87,7 @@
 ### mv file1 file2 file3 dir1
 > #### It moves file1,file2,file3 to dir1(directory).
 
-## <center> rm </center>
+## <center> [rm](https://www.geeksforgeeks.org/rm-command-linux-examples/?ref=lbp) </center>
 ### rm
 > #### rm stands for remove.delete the files.
 
@@ -99,7 +99,7 @@
 ### rm -f file1
 > #### It forcefully deletes the file1.
 
-## <center> chmod </center>
+## <center> [chmod](https://www.javatpoint.com/linux-chmod-command) </center>
 ### chmod
 > #### This is used to change file or directories permissions. By default the permissions are 774. You can check using umask.
 
@@ -127,7 +127,7 @@
 ### chmod g+x file1 file2
 > #### it adds the executable permission to group for file1 file2 
 
-# <center> chown </center>
+# <center> [chown](https://www.javatpoint.com/linux-chown-command) </center>
 ### chown
 > #### chown stands for change owner it changes the owner of a file to another file.
 
@@ -137,7 +137,7 @@
 ### chown -r owner1 dir1
 > #### It recursively changes the owner of all the subfiles and folders.
 
-# <center> sudo </center>
+# <center> [sudo](https://www.javatpoint.com/linux-sudo) </center>
 ### sudo
 > #### some files do not have the privilages to view and modify then we use sudo we can modify those as sudo(root) user has all the privilages to view and modify.
 
@@ -145,7 +145,7 @@
 > #### sudo command
 > #### Eg:- sudo cat /etc/passwd , sudo  apt-get install htop.
 
-# <center> apt </center>
+# <center> [apt](https://linuxize.com/post/how-to-use-apt-command/) </center>
 ### apt
 > #### apt is a repository where you find all the package. using apt we install the package from our command line.
 
